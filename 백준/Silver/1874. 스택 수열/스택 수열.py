@@ -1,11 +1,13 @@
-n = int(input())
+import sys
+
+n = int(sys.stdin.readline())
 
 cnt = 1
 stack = []
 result = []
 
-for i in range(1, n+1):
-    data = int(input())
+for _ in range(n):
+    data = int(sys.stdin.readline())
 
     while cnt <= data:          # 입력 받은 데이터에 도달할 때까지 삽입
         stack.append(cnt)
