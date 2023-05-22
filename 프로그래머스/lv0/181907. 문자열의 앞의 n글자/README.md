@@ -1,4 +1,4 @@
-# [level 1] 문자열의 앞의 n글자 - 181907 
+# [level 0] 문자열의 앞의 n글자 - 181907 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181907) 
 
