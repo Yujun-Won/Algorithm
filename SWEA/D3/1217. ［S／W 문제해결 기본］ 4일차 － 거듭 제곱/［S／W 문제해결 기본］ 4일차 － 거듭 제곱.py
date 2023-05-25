@@ -1,5 +1,11 @@
-for i in range(10):
+def power(num, n):
+    if n == 1:
+        return num
+    else:
+        return num * power(num, n-1)
+    
+for _ in range(10):
     testcase = int(input())
     N, M = map(int, input().split())
-
-    print(f"#{i+1} {N ** M}")
+    
+    print(f"#{testcase} {power(N, M)}")
