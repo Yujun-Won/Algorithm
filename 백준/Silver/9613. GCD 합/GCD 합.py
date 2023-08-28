@@ -1,7 +1,7 @@
-def gcd(n, m):
-    for i in range(min(n, m), 0, -1):
-        if n % i == 0 and m % i == 0:
-            return i
+def gcd(a, b):
+    while b > 0:
+        a, b = b, a % b
+    return a
 
 
 for _ in range(int(input())):
